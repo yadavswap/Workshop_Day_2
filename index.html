@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* universal selector */
+      /* * {
+        background-color: #4d4d4d;
+        color: #ffffff;
+      } */
+
+      /* individual selector */
+      /* p {
+        background-color: #a59b16;
+      } */
+
+      /* class and id selector */
+      /* #warning {
+        background-color: #f86a18;
+        color: #ffffff;
+        padding: 3px;
+        border: 3px solid #ffffff;
+      } */
+
+      /* and selector (chained) */
+      /* li.bg-black.text-white {
+        background-color: #000000;
+        color: #ffffff;
+      } */
+
+      /* combined selector */
+      /* span,
+      li {
+        background-color: burlywood;
+      } */
+
+      /* inside an element */
+      /* div ul li {
+        background-color: #0f7ac2;
+      } */
+
+      /* direct child */
+      /* div > li {
+        background-color: #5e1c9b;
+      } */
+
+      /* sibling  ~ or + */
+      /* .sibling ~ p {
+        background-color: #e127e7;
+      } */
+    </style>
+  </head>
+  <body>
+    <div>Welcome to live class</div>
+    <span>Span is just a span, nothing more</span>
+    <p>We all know paragraph</p>
+    <ul>
+      <li class="bg-black text-white">item1</li>
+      <li id="warning">item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+    </ul>
+
+    <div>
+      <li>awesome</li>
+      <ul>
+        <li>highlight me</li>
+        <li>highlight me</li>
+      </ul>
+      <li>test</li>
+    </div>
+
+    <section>
+      <p>Test 1</p>
+      <p class="sibling">Test 2</p>
+      <p>Test 3</p>
+      <p>Test 4</p>
+      <p>Test 5</p>
+    </section>
+  </body>
+</html>
